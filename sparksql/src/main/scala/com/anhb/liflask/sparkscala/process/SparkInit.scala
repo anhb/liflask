@@ -6,11 +6,12 @@ import org.apache.spark.sql.SparkSession
 import com.typesafe.scalalogging.LazyLogging
 
 trait SparkInit extends LazyLogging {
+
     protected val logAdd: String = "Add new config: ( "
     protected val logAddMiddle: String = " , "
     protected val logAddEnd: String = " )"
     protected val exitCode: Int = 0
-     val excepLog: String = "Exception Found: "
+    protected val excepLog: String = "Exception Found: "
 
     def sparkSQLInit(setNameSpark: String = "spark_master", setMaster: String = "local", listConfig: List[String] = List("spark.ui.enabled"),
                        values: List[String] = List("false"), showOption: Boolean = false): SparkSession = {
