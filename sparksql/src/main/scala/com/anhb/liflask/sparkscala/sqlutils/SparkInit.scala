@@ -1,17 +1,12 @@
-package com.anhb.liflask.sparkscala.process
+package com.anhb.liflask.sparkscala.sqlutils
 
-import org.apache.spark.{SparkConf, SparkContext}
-import scala.annotation.tailrec
+import com.anhb.liflask.sparkscala.utils.variablesLog
 import org.apache.spark.sql.SparkSession
-import com.typesafe.scalalogging.LazyLogging
+import org.apache.spark.{SparkConf, SparkContext}
 
-trait SparkInit extends LazyLogging {
+import scala.annotation.tailrec
 
-    protected val logAdd: String = "Add new config: ( "
-    protected val logAddMiddle: String = " , "
-    protected val logAddEnd: String = " )"
-    protected val exitCode: Int = 0
-    protected val excepLog: String = "Exception Found: "
+trait SparkInit extends variablesLog{
 
     def sparkSQLInit(setNameSpark: String = "spark_master", setMaster: String = "local", listConfig: List[String] = List("spark.ui.enabled"),
                        values: List[String] = List("false"), showOption: Boolean = false): SparkSession = {
@@ -21,8 +16,6 @@ trait SparkInit extends LazyLogging {
               .appName(setNameSpark)
               .config("spark.master", setMaster)
               .getOrCreate()
-
-            import sparkSession.implicits._
 
             @tailrec
             def addConfSession(length: Int, iterator: Int = 0): Int = {
@@ -48,12 +41,11 @@ trait SparkInit extends LazyLogging {
         }
     }
 
-    def sparkContextInit(setNameSpark: String = "spark_master", setMaster: String = "local", listConfig: List[String] = List("spark.ui.enabled"),
-                         values: List[String] = List("true"), showOption: Boolean = true): SparkContext ={
+    def sparkContextInit(setNameSpark: String = "spark_master", setMaster: String = "local", showOptions: Boolean = false): SparkContext ={
         try {
-            var conf = new SparkConf().setAppName(setNameSpark).setMaster(setMaster)
+            val conf = new SparkConf().setAppName(setNameSpark).setMaster(setMaster)
             val sparkContext: SparkContext = new SparkContext(conf)
-            if(showOption) sparkContext.getConf.getAll.foreach(println)
+            if(showOptions) sparkContext.getConf.getAll.foreach(println)
             sparkContext
         }catch {
             case e: Exception => {
