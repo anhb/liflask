@@ -2,22 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0a5e770-3aa3-4ef8-b141-ac7e8f4a58a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/examples/SparkInit.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_7_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_6_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_12_0_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_9_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_univocity_univocity_parsers_2_7_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vlkan_flatbuffers_1_2_0_3f79e055.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_airlift_aircompressor_0_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_format_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_memory_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_arrow_arrow_vector_0_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_core_nohive_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_mapreduce_nohive_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_orc_orc_shims_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_core_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_kvstore_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_sql_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_tags_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_12_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xbean_xbean_asm6_shaded_4_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_12_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_12_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_jackson_2_12_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_scalap_2_12_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_12_1_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_12_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liflask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liflask.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparksql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparksql/sparksql.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/sparksql.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/process/SparkInit.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/SparkRunExamples$.class" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/SparkRunExamples$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/process/Examples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/process/SparkInit.class" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/process/SparkInit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/utils/sparkSQLIO$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/utils/sparkSQLIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/utils/sparkSQLTransforms$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/utils/sparkSQLTransforms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/SparkRunExamples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/SparkRunExamples.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/FSFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/ReadWriteFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/SparkInit.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/SparkInit.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/TransformsFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/utils/variablesLog.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/src/test/scala/com/anhb/liflask/sparkscala/SparksqlTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparksql/src/test/scala/com/anhb/liflask/sqlutils/SparksqlTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/META-INF/sparksql.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/SparkRunExamples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/SparkRunExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/examples/Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/process/SparkInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/sqlutils/FSFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/classes/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparksql/target/test-classes/com/anhb/liflask/sparkscala/SparksqlTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/sparksql/target/" />
@@ -33,73 +107,109 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/SparkRunExamples.scala">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/SparkRunExamples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-              <folding>
-                <element signature="e#46#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding>
-                <element signature="e#47#100#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/utils/variablesLog.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.scala">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/TransformsFunctions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="135">
+              <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding>
-                <element signature="e#46#99#0" expanded="true" />
+                <element signature="e#45#94#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/SparkInit.scala">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/Dataset.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            <state relative-caret-position="128">
+              <caret line="1435" column="6" selection-start-line="1435" selection-start-column="6" selection-end-line="1435" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala">
+        <entry file="file://$PROJECT_DIR$/sparksql/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/ReadWriteFunc.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="e#45#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/logs/LoggingFunc.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-689">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="e#40#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/logs/LoggingVar.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#40#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/FSFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#45#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/SparkInit.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#45#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/examples/SparkInit.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -133,22 +243,27 @@
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/utils/TransformsFunctions.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/SparkRunExamples.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/package.scala" />
-        <option value="$PROJECT_DIR$/sparksql/pom.xml" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/utils/variablesLog.scala" />
-        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/process/SparkInit.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/SparkInit.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.scala" />
+        <option value="$PROJECT_DIR$/sparksql/pom.xml" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/sqlutils/TransformsFunctions.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/IOFunctions.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/logs/LoggingVar.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/ReadWriteFunc.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/rules/Examples.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/examples/Examples.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/examples/SparkInit.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/SparkRunExamples.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/SparkInit.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/FSFunctions.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/logs/LoggingFunc.scala" />
+        <option value="$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/TransformsFunctions.scala" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -163,27 +278,21 @@
           <item name="sparkscala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sparkscala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-68" />
-    <option name="y" value="20" />
-    <option name="width" value="1334" />
-    <option name="height" value="625" />
+    <option name="x" value="-183" />
+    <option name="y" value="152" />
+    <option name="width" value="1364" />
+    <option name="height" value="770" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,7 +334,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlutils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +343,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlutils" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -244,8 +353,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkscala" type="462c0819:PsiDirectoryNode" />
               <item name="sqlutils" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liflask" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlutils" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
@@ -256,12 +375,36 @@
             </path>
             <path>
               <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liflask" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liflask" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksql" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlutils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="liflask" type="462c0819:PsiDirectoryNode" />
+              <item name="sparksql" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liflask" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,10 +413,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581386487500" />
     <property name="com.xinky.component.materialdesign.theme.lastnotify" value="1558569946216" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wmuqz_datio_salidasarceapx2" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nizht_datio_hammurabi_expert_rule" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3091954" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -292,11 +436,11 @@
   </component>
   <component name="RunManager">
     <configuration name="SparkRunExamples" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.anhb.liflask.sparkscala.SparkRunExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.anhb.liflask.sqlutils.SparkRunExamples" />
       <module name="sparksql" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.anhb.liflask.sparkscala.*" />
+          <option name="PATTERN" value="com.anhb.liflask.sqlutils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,19 +475,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-2" y="0" width="1370" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29829243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3030303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36670178" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36670178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39936775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,14 +496,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3280507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.27481323" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.27424243" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
@@ -378,104 +523,116 @@
     <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/package.scala" />
     <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/spark/Liflask.scala" />
     <entry file="file://$PROJECT_DIR$/sparksql/src/scala/main/com/anhb/sparkutils/sparksql.scala" />
-    <entry file="file://$PROJECT_DIR$/sparksql/src/test/scala/com/anhb/liflask/sparkscala/SparksqlTest.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/Function1.scala" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/collection/immutable/List.scala" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.0/spark-core_2.12-2.4.0.jar!/org/apache/spark/SparkContext.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/2.4.0/spark-sql_2.12-2.4.0.jar!/org/apache/spark/sql/DataFrameReader.class" />
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/process/SparkInit.scala" />
+    <entry file="file://$PROJECT_DIR$/liflask.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/Function1.scala">
+    <entry file="file://$PROJECT_DIR$/sparksql/src/test/scala/com/anhb/liflask/sqlutils/SparksqlTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="41" column="70" lean-forward="true" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/collection/immutable/List.scala">
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/utils/variablesLog.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="278" column="21" selection-start-line="278" selection-start-column="21" selection-end-line="278" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.12/2.4.0/spark-core_2.12-2.4.0.jar!/org/apache/spark/SparkContext.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.12/2.4.0/spark-sql_2.12-2.4.0.jar!/org/apache/spark/sql/DataFrameReader.class">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sparksql/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/process/SparkInit.scala">
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/examples/SparkInit.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="49" column="71" lean-forward="true" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/SparkRunExamples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/FSFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#45#98#0" expanded="true" />
+            <element signature="e#45#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/examples/Examples.scala">
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/SparkInit.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/TransformsFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <element signature="e#46#99#0" expanded="true" />
+            <element signature="e#45#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/SparkRunExamples.scala">
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/logs/LoggingFunc.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/SparkInit.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/utils/variablesLog.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/FSFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="-689">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding>
-            <element signature="e#47#100#0" expanded="true" />
+            <element signature="e#40#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sparkscala/sqlutils/IOFunctions.scala">
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/logs/LoggingVar.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="e#46#99#0" expanded="true" />
+            <element signature="e#40#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/ReadWriteFunc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#45#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.1/spark-sql_2.11-2.2.1-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1435" column="6" selection-start-line="1435" selection-start-column="6" selection-end-line="1435" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparksql/src/main/scala/com/anhb/liflask/sqlutils/functions/TransformsFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="e#45#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -509,7 +666,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.12.7</last-edited>
+          <last-edited>scala-sdk-2.12.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
