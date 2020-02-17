@@ -76,21 +76,31 @@ trait DataFrameFunc extends LoggingVar{
     }
   }
 
-  def setNullableStateOfColumn( df: DataFrame, cn: String, nullable: Boolean) : DataFrame = {
-    val schema = df.schema
-    val newSchema = StructType(schema.map {
-      case StructField( c, t, _, m) if c.equals(cn) => StructField( c, t, nullable = nullable, m)
-      case y: StructField => y
-    })
-    df.sqlContext.createDataFrame( df.rdd, newSchema)
+  def setNullableStateOfColumn(df: DataFrame, cn: String, nullable: Boolean) : DataFrame = {
+    try {
+      df.sqlContext.createDataFrame(df.rdd, StructType(df.schema.map {
+        case StructField(c, t, _, m) if c.equals(cn) => StructField(c, t, nullable = nullable, m)
+        case y: StructField => y
+      }))
+    }catch{
+      case e: Exception =>{
+        log_exception
+        throw e
+      }
+    }
   }
 
-  def setNullableStateForAllColumns( df: DataFrame, nullable: Boolean) : DataFrame = {
-    val schema = df.schema
-    val newSchema = StructType(schema.map {
-      case StructField( c, t, _, m) ⇒ StructField( c, t, nullable = nullable, m)
-    })
-    df.sqlContext.createDataFrame( df.rdd, newSchema )
+  def setNullableStateForAllColumns(df: DataFrame, nullable: Boolean) : DataFrame = {
+    try {
+      df.sqlContext.createDataFrame(df.rdd, StructType(df.schema.map {
+        case StructField(c, t, _, m) ⇒ StructField(c, t, nullable = nullable, m)
+      }))
+    }catch{
+      case e: Exception =>{
+        log_exception
+        throw e
+      }
+    }
   }
 
   def renameColumns(df: DataFrame, list_old_columns: Seq[String], list_new_columns: Seq[String]): DataFrame ={
