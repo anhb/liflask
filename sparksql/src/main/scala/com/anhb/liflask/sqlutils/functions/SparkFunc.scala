@@ -6,7 +6,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 import scala.annotation.tailrec
 
-trait SparkInit extends LoggingVar{
+trait SparkFunc extends LoggingVar{
 
     private val exit_code = 0
 

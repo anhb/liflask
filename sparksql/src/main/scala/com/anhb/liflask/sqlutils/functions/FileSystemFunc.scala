@@ -4,7 +4,7 @@ import com.anhb.liflask.sqlutils.logs.LoggingVar
 import org.apache.hadoop.fs.{FileSystem, Path}
 import org.apache.spark.SparkContext
 
-class FSFunctions(sparkContext: SparkContext) extends LoggingVar{
+class FileSystemFunc(sparkContext: SparkContext) extends LoggingVar{
 
   def renamePartCSV(path: String, newName: String): Int = {
     try {

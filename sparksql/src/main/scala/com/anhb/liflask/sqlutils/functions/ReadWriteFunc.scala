@@ -28,4 +28,6 @@ class ReadWriteFunc(spark: SparkSession) extends LoggingFunc{
     }
   }
 
+  def dynamicallyRepartitionByCore(spark: SparkSession, df: DataFrame): Int = spark.sparkContext.defaultParallelism * 4
+
 }

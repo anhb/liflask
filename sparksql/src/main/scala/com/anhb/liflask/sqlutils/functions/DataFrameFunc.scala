@@ -2,10 +2,10 @@ package com.anhb.liflask.sqlutils.functions
 
 import com.anhb.liflask.sqlutils.logs.LoggingVar
 import org.apache.spark.sql.DataFrame
-import org.apache.spark.sql.functions.{avg, max, sum}
+import org.apache.spark.sql.functions.{avg, col, max, sum}
 import org.apache.spark.sql.types.{StructField, StructType}
 
-trait TransformsFunctions extends LoggingVar{
+trait DataFrameFunc extends LoggingVar{
 
   def sumGroupBy(df: DataFrame, columnGroupBy: String, sumCols: List[String]): DataFrame ={
     try{
@@ -76,7 +76,6 @@ trait TransformsFunctions extends LoggingVar{
     }
   }
 
-
   def setNullableStateOfColumn( df: DataFrame, cn: String, nullable: Boolean) : DataFrame = {
     val schema = df.schema
     val newSchema = StructType(schema.map {
@@ -94,10 +93,17 @@ trait TransformsFunctions extends LoggingVar{
     df.sqlContext.createDataFrame( df.rdd, newSchema )
   }
 
-
-
-
-
-
+  def renameColumns(df: DataFrame, list_old_columns: Seq[String], list_new_columns: Seq[String]): DataFrame ={
+    try {
+      df.select(list_old_columns.zip(list_new_columns).map(name => {
+        col(name._1).as(name._2)
+      }): _*)
+    }catch{
+      case e: Exception =>{
+        log_exception
+        throw e
+      }
+    }
+  }
 
 }
